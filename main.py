@@ -24,7 +24,6 @@ def load_img(path_to_img):
   img = img[tf.newaxis, :]
   return img
 
-# style_image = load_img(style_path)
 styles = [
     load_img(tf.keras.utils.get_file('64b343edeb1352560742df89b89b09b5.jpg','https://i.pinimg.com/originals/64/b3/43/64b343edeb1352560742df89b89b09b5.jpg')),
     load_img(tf.keras.utils.get_file('What_is_Contemporary_Art_2048x.png','https://cdn.shopify.com/s/files/1/2126/2505/articles/What_is_Contemporary_Art_2048x.png?v=1549290999')),
